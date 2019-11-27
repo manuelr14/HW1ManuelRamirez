@@ -58,3 +58,9 @@
         border-style: solid;
 
     }
+    .profilePicture{    
+        float: left;
+        width: 200px;
+        height: 220px;
+
+    }
