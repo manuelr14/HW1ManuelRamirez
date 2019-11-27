@@ -25,8 +25,7 @@
     float: right;
   }
 
-  .header a.active {
-    color:##777777;}
+ 
 
     .logo{background-color: #4aaaa5;
           font-size: 20px;
@@ -38,4 +37,24 @@
         bottom: 0;
         width: 150px;
         text-align: center;
+    }
+
+    .mantequilla{ 
+        position: relative;
+        border: 1px solid #cccccc;
+        margin: auto;
+        height: 400px;
+        padding:20px;
+        background-color: white;
+    }
+
+    .h1{
+        color:#4aaaa5;
+        border-bottom: #cccccc;
+        border-top: white;
+        border-right: white;
+        border-left: white;
+        height: 50px;
+        border-style: solid;
+
     }
