@@ -1,6 +1,6 @@
 .wrapper {
     width: 960px;
-    padding: 20px;
+    padding: 0px;
     margin: 0 auto;
     color:red;
     align-content: center;
@@ -10,8 +10,14 @@
     overflow: hidden;
     width: 100%;
     background-color:white;
-    padding:20px;
+    padding:40px;
     border: 1px solid #cccccc;
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+   
+  
+    
   }
 
   .header-right {
@@ -21,3 +27,16 @@
   .header a.active {
     background-color: dodgerblue;
     color: white;}
+
+    .logo{background-color: #4aaaa5;
+          color:white;
+        padding: 20px;
+        margin-bottom: 0px;
+        position: absolute;
+        left:225px;
+        bottom: 0;
+        width: 150px;}
+
+      
+        text-align: center;
+    }
