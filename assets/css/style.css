@@ -43,7 +43,7 @@
         position: relative;
         border: 1px solid #cccccc;
         margin: auto;
-        height: 400px;
+        height: 500px;
         padding:20px;
         background-color: white;
     }
@@ -62,5 +62,9 @@
         float: left;
         width: 200px;
         height: 220px;
+        padding: 0px 20px 20px 0px;
 
+    }
+    .information{
+        text-align: justify;
     }
