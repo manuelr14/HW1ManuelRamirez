@@ -8,5 +8,16 @@
   
   .header {
     overflow: hidden;
+    width: 100%;
     background-color:white;
-    padding: 20px 10px;
+    padding:20px;
+    border: 1px solid #cccccc;
+  }
+
+  .header-right {
+    float: right;
+  }
+
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;}
