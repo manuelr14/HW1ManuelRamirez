@@ -68,3 +68,14 @@
     .information{
         text-align: justify;
     }
+.push{
+    height: 50px;
+}
+    .footer{
+        border-top: 8px solid #4aaaa5;
+        height: 50px;
+        background-color:#666666;
+        margin-top: 150px;
+        text-align: center;
+        color:white
+    }
