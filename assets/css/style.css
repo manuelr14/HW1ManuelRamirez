@@ -1,6 +1,7 @@
 .wrapperheader {
     width: 960px;
     padding: 0px;
+    margin: auto;
     
     color: #777777;
     
@@ -24,10 +25,22 @@
     margin-bottom: 20px;
     text-align: center;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-   
-  
-    
-  }
+   }
+
+   .logo{
+    float=left;   
+    background-color: #4aaaa5;
+    font-size: 20px;
+    color:white;
+  padding: 20px;
+  margin-bottom: 0px;
+  position: absolute;
+  left:231px;
+  bottom: 0;
+  width: 150px;
+  text-align: center;
+}
+
 
   .header-Contact {
     position: absolute;
@@ -56,10 +69,11 @@
  }
 
  .header-about {
+    
     position: absolute;
     right:470px;
     bottom: 30px;
-    float: right;
+    float: left;
     border-style: solid;
         border-color:white;
         padding: 5px;
@@ -69,18 +83,7 @@
   }
  
 
-    .logo{background-color: #4aaaa5;
-          font-size: 20px;
-          color:white;
-        padding: 20px;
-        margin-bottom: 0px;
-        position: absolute;
-        left:231px;
-        bottom: 0;
-        width: 150px;
-        text-align: center;
-    }
-
+   
     .mantequilla{ 
         position: relative;
         border: 1px solid #cccccc;
@@ -88,7 +91,16 @@
         height: 500px;
         padding:20px;
         background-color: white;
+
     }
+
+    .mantequillaportfolio{ 
+        position: relative;
+        border: 1px solid #cccccc;
+        margin: auto;
+        height: 1000px;
+        padding:20px;
+        background-color: white;}
 
     .h1{
         color:#4aaaa5;
@@ -105,9 +117,89 @@
         width: 200px;
         height: 220px;
         padding: 0px 20px 20px 0px;
+        }
 
-    }
-    .information{
+        .workPicture{ 
+            position: relative;   
+            float: left;
+            width: 200px;
+            height: 220px;
+            padding: 0px 20px 20px 0px;
+            }
+
+            .homePicture{ 
+                position: absolute;   
+                float: left;
+                width: 200px;
+                height: 220px;
+                padding: 0px 20px 20px 0px;
+                }
+
+                .Picture2row{ 
+                    clear:both;
+                       
+                    float: left;
+                    width: 200px;
+                    height: 220px;
+                    padding: 0px 20px 20px 0px;
+                    }
+                    .Picture2row1{ 
+                       
+                           
+                        float: left;
+                        width: 200px;
+                        height: 220px;
+                        padding: 0px 20px 20px 0px;
+                        }
+
+        .banda{
+            position: absolute;
+            background-color: #4aaaa5;
+            padding:10px;
+            width: 180px;
+            bottom: 700px;
+            color:white;
+            text-align: center;
+        }
+
+        .bandahome{
+            float:left;
+            position: absolute;
+            background-color: #4aaaa5;
+            padding:10px;
+            width: 180px;
+            bottom: 700px;
+            left:240px;
+            color:white;
+            text-align: center;
+        }
+
+        .bandahobbie{
+           
+            float:left;
+            position: absolute;
+            background-color: #4aaaa5;
+            padding:10px;
+            width: 180px;
+            bottom: 460px;
+            left:20px;
+            color:white;
+            text-align: center;}
+
+            .bandapets{
+                
+                float:left;
+                position: absolute;
+                background-color: #4aaaa5;
+                padding:10px;
+                width: 180px;
+                bottom: 460px;
+                left:240px;
+                color:white;
+                text-align: center;}
+
+
+    .information {
         text-align: justify;
     }
 
@@ -121,8 +213,9 @@
         text-align: center;
         color:white;
     }
+    
     .sobrenombre{line-height: 2px;
-        ;
+        
 
     }
 
