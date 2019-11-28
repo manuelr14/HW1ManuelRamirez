@@ -198,6 +198,18 @@
                 color:white;
                 text-align: center;}
 
+                .bandaeducation{
+           
+                    float:left;
+                    position: absolute;
+                    background-color: #4aaaa5;
+                    padding:10px;
+                    width: 180px;
+                    bottom: 220px;
+                    left:20px;
+                    color:white;
+                    text-align: center;}     
+
 
     .information {
         text-align: justify;
