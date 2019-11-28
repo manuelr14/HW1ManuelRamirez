@@ -77,5 +77,36 @@
         background-color:#666666;
         margin-top: 150px;
         text-align: center;
-        color:white
+        color:white;
+    }
+    .sobrenombre{
+        ;
+
+    }
+
+    .input{
+        border-style: solid;
+        border-color: #cccccc;
+        padding: 10px;
+        border-width: 1px;
+        
+    }
+    .inputmessage{
+        border-style: solid;
+        border-color: #cccccc;
+        padding: 10px;
+        height: 100px;
+        border-width: 1px;
+    }
+    .submitbutton{
+            position: absolute;
+            bottom:30px;
+            left: 50;
+            width: 80px;
+            
+            border: 1px solid;
+            background-color: #4aaaa5;
+            text-align: center;
+            padding: 5px;
+            color: white;
     }
