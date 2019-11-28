@@ -79,7 +79,8 @@
 
     .footer{
         border-top: 8px solid #4aaaa5;
-        height: 50px;
+        padding-top: 40px;
+        width: 100%;
         background-color:#666666;
         margin-top: 150px;
         text-align: center;
