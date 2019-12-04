@@ -52,8 +52,10 @@
         padding: 5px;
         border-width: 1px;
         font-size: 15px;
+        color: #cccccc;
   }
   .header-portfolio {
+      color: #cccccc;
     position: absolute;
     right:385px;
     bottom: 30px;
@@ -66,10 +68,11 @@
         padding: 5px 10px 5px 10px;
         border-width: 0.5px;
         font-size: 15px;
+    
  }
 
  .header-about {
-    
+    color: #cccccc;
     position: absolute;
     right:470px;
     bottom: 30px;
